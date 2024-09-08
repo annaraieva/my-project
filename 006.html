@@ -1,51 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-    <title>semantic annotation</title>
+    <title>semantic annotation and Deadpool's Official Site</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bangers&display=swap">
+    <style>
+        body {
+            font-family: 'Comic Sans MS', sans-serif;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 50px;
+        }
+        h1 {
+            font-family: 'Bangers', cursive; /* Шрифт в стиле Дэдпула */
+            font-size: 48px;
+            color: #c01414de;
+            text-shadow: 3px 3px 0 #000;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-family: 'Bangers', cursive; /* Шрифт в стиле Дэдпула */
+            color: rgb(138, 25, 25);
+            text-align: center;
+        }
+        .text-content {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px; /* Отступы для текстового блока */
+            text-align: justify; /* Выравнивание текста по двум сторонам */
+            line-height: 1.6; /* Межстрочный интервал для лучшей читаемости */
+            color: #333;
+        } 
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #f4f4f4;
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+        }
+        th, td {
+            padding: 15px;
+            border: 2px solid #000; 
+            text-align: center;
+            font-weight: bold;
+        }
+        th {
+            background-color: #c00; 
+            color: #fff; 
+        }
+        td {
+            background-color: #eee;
+            color: #333; 
+        }
+        tr:nth-child(even) td {
+            background-color: #b30000; 
+            color: #fff;
+        }
+        tr:nth-child(odd) td {
+            background-color: #1c1c1c; 
+            color: #fff;
+        }
+        caption {
+            margin-bottom: 10px;
+            font-size: 1.7em;
+            font-weight: bold;
+            color: #c00; 
+        }
+        .image-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Промежуток между картинками */
+        }
+        .image-item {
+            text-align: center;
+        }
+        img {
+            width: 200px;
+            height: auto; /* Сохраняет пропорции изображения */
+            border-radius: 10px; /* Скругление углов */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Тень для изображений */
+        }
+        figcaption {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+        form {
+            background-color: #ffff;
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #c00;
+            display: inline-block;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input {
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            width: 100%;
+            max-width: 300px;
+        }
+        button {
+            background-color: #c00;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #900;
+        }
+        small {
+            display: block;
+            margin-top: 10px;
+            color: #666;
+        }
+    </style>
    </head>
-   <body>
+   <body bgcolor="#b30000">
     <header>
-        <h1>page title</h1>
+        <h1 style="text-align: center;">&#128420;  Welcome to the Official Site of Wade Wilson  &#128420; <br> &#128420; &#40;a.k.a. Deadpool&#41; &#128420;</h1>
+        <h2>The Hero of Your Nightmares... and Dreams!</h2>
     </header>
-    <article>
-        <h2>project decription</h2>
-        <p>this project is very important for me. this is my homework number 006.</p>
+    <main>
+        <section>
+            <p class=".text-content">My name is Deadpool, and I'm your favorite anti-hero. If you thought you stumbled upon a regular website, you're sorely mistaken. Here, you'll find memes, sarcasm, and a few inappropriate jokes (you probably won't notice them). Ready? Then let's dive in!
+            </p>
+            <nav>
+                <h2>What You'll Find on This Page:</h2>
+                <ul>
+                    <li><p><a href="#my-story">My Story</a>— How I became the legend I am today &#40;spoiler: things went sideways&#41;.</p></li>
+                    <li><p><a href="#katanas">How to Properly Use Katanas</a>— For when you're tired of cutting paper with scissors.</p></li>
+                    <li><p><a href="#gallery">Photo Gallery</a>— Where I look even cooler than usual.</p></li>
+                    <li><p><a href="#arsenal">My Weapons Arsenal Table</a> — So you know what to expect.</p> </li>
+                    <li><p><a href="#friends-enemies">List of "Friends" and "Enemies"</a>— So you know what to expect.</p> </li>
+                    <li><p><a href="#links">Useful Links</a> — Just in case you want to switch realities and find other superheroes &#40;but why would you?&#41;.</p> </li>
+                    <li><p><a href="#registration form">Deadpool's "Totally Serious" Registration Form</a></p></li>
+                </ul>
+            </nav>
+        </section>
+    
+    <article id="my-story">
+        <h2>My Story</h2>
+        <p class=".text-content">Once upon a time, I was just Wade Wilson, a mercenary with a great sense of humor and infinite charm. But then I got "enhanced" and became... well, the guy you know and love. Now I've got super healing powers, insane combat skills, and an unstoppable flow of sarcasm.</p>
     </article>
     <aside>
-        <ol>
-            <li>learn to use basic semantic elements</li>
-            <li>function 2</li>
-            <li>function 3</li>
-            <li>function 4</li>
-        </ol>
-    </aside>
-    <nav> 
-        <h2>if you want you can see information about project team</h2>
-    </nav>
-    <details>
+        <h3>Why Are You Here?</h3>
+        <p class=".text-content">Why indeed? Aren't you curious about what's going on inside the head of the guy in the red suit? Here, you can look around, laugh, learn &#40; how not to do things&#41;, and laugh some more. So stick around, relax, and enjoy the best site on the internet.</p>
+      </aside>
+    <section id="katanas">
+        <h2>How to Properly Use Katanas</h2>
+        <p class=".text-content">For when you're tired of cutting paper with scissors, here's the ultimate guide to katanas...</p>
+    </section>
+    <section>
+    <h2>Photo Gallery</h2>
+    <div class="image-row">
+        <figure class="image-item">
+            <img src="https://cdnn11.img.sputnik.by/img/102011/66/1020116660_510:0:1489:1076_1920x0_80_0_0_883a57f2b2b2471365ae885512676aa3.jpg" alt="Deadpool in 'no comment' mode">
+            <figcaption>Just look at that handsome devil!</figcaption>
+        </figure>
+        <figure class="image-item">
+            <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/f5961569-594e-476d-85ec-2ff29862c95c/220x330" alt="Deadpool in 'no comment' mode">
+            <figcaption>Just look at that handsome devil!</figcaption>
+        </figure>
+        <figure class="image-item">
+            <img src="https://popcollectibles.store/cdn/shop/files/0O8A4213_1024x1024@2x.jpg?v=1722673440" alt="Deadpool in 'no comment' mode">
+            <figcaption>Just look at that handsome devil!</figcaption>
+        </figure>
+    </div>
+    </section>
+    <section id="arsenal">
+        <h2>My Weapons Arsenal Table</h2>
+        <details>
+            <summary>click here, baby</summary>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>starring</th>
-                    <th>starring</th>
-                    <th>starring</th>
-                    <th>starring</th>
-                </tr>
-    
-            </thead>
-            <tbody>
-                <tr>
-                    <td>a hot chick</td>
-                    <td>a british villain</td>
-                    <td>the comic relief</td>
-                    <td>a moody teen</td>
-                </tr>
-            </tbody>
-        </table>
-    </details>
-    <footer>
-        <p> the end</p>
-    </footer>
-   </body> 
+            <table>
+                <thead>
+                    <tr>
+                        <th><b>Weapon</b></th>
+                        <th><b>Purpose</b></th>
+                        <th><b>Deadpool Rating &#40;1-10&#41;</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Katanas &#9876;</td>
+                        <td>Perfect for slicing up enemies... and pizza</td>
+                        <td>11 &#40;because 10 is for wimps&#41;</td>
+                    </tr>
+                    <tr>
+                        <td>Pistols &#128299;&#128299;&#128299;</td>
+                        <td>Great for precise headshots</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>Grenades &#128163;</td>
+                        <td>For when a simple "boom" just isn't enough</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Sarcasm &#128133;</td>
+                        <td>My primary weapon. Words cut deeper than swords.</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>Self-Love &#127801;</td>
+                        <td>All you need to be a superhero</td>
+                        <td>Infinity</td>
+                    </tr>
+                </tbody>
+            </table>
+        </details>
+    </section>
+    <section id="friends-enemies">
+        <h2>My "Friends" and "Enemies"</h2>
+        <ul>
+            <li><strong>Friends:</strong>
+                <ul>
+                    <li>Colossus &#40;my big, metal buddy with a strong sense of morality&#41;</li>
+                    <li>Negasonic Teenage Warhead &#40;teenage angst in its purest form&#41;</li>
+                </ul>
+            </li>
+            <li><strong>Enemies:</strong>
+                <ul>
+                    <li>Ajax &#40;nobody likes a sadistic megalomaniac&#41;</li>
+                    <li>Francis &#40;that's his real name... but who even is this guy? Just kidding, I know who he is.&#41;</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="links">
+        <h2>Useful Links</h2>
+        <ul>
+            <li><a href="https://www.marvel.com" target="_blank">Marvel</a> — You know, in case you got lost and forgot where superheroes hang out.</li>
+            <li><a href="https://www.x-menmovies.com" target="_blank">X-Men</a> — If you suddenly feel like switching teams (but we both know you won't).</li>
+            <li><a href="https://www.pizza.com" target="_blank">Good Pizza Near You</a> — Arguably the most important link on this list.</li>
+        </ul>
+    </section>
+    <section>
+    <h2 id="registration form">Deadpool's "Totally Serious" Registration Form</h2>
+    <p>Yes, I need all your details. No, not for any evil purposes...*wink*</p>
+    <div style="text-align: center;">
+        <form action="#" method="post">
+        <label for="username">Your "Unique" Username (LOL)</label>
+        <input type="text" id="username" name="username" placeholder="Enter something creative, not 'user123'">
+        
+        <label for="email">Your "Secret" Email</label>
+        <input type="email" id="email" name="email" placeholder="Make sure it's not spam@pleasehackme.com">
+        
+        <label for="password">Your "Super Secure" Password</label>
+        <input type="password" id="password" name="password" placeholder="Password123... Really?">
+
+        <label for="confirm_password">Confirm that "Awesome" Password</label>
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="Don't mess it up, genius">
+        
+        <label for="birthdate">Your "Totally Real" Birthdate</label>
+        <input type="date" id="birthdate" name="birthdate">
+
+        <label for="superpower">Your Superpower (or lack thereof)</label>
+        <input type="text" id="superpower" name="superpower" placeholder="Flight? Invisibility? Eating tacos fast?">
+
+        <button type="submit">Sign me up... or not</button>
+
+        <small>By clicking "Sign me up," you're legally binding yourself to a lifetime of sarcasm and tacos. No take-backs.</small>
+    </form>
+</div>
+</section>
+</main>
+<footer>
+    <p style="text-align: left;"">&copy; 2024 Deadpool Inc. All rights reserved. Don't mess with the red suit.</p>
+</footer>
+</body> 
 </html> 
